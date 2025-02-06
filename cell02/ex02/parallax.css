@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg1 {
+    background-image: url('https://images6.alphacoders.com/425/thumb-1920-425741.jpg'); /* เปลี่ยนเป็น URL ของรูปภาพที่ต้องการ */
+}
+
+.bg2 {
+    background-image: url('https://i.redd.it/3usl9ar6won61.jpg'); /* เปลี่ยนเป็น URL ของรูปภาพที่ต้องการ */
+}
+
+.text {
+    color: white;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5rem;
+}
+
