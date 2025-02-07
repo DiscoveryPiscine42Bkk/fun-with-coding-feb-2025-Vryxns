@@ -38,11 +38,14 @@ body {
 }
 
 .contact-btn {
-    background: rgb(4, 4, 82);
+    background: blue;
     color: white;
     border: none;
     padding: 10px 15px;
     margin-top: 10px;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
 }
